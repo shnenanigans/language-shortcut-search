@@ -13,7 +13,7 @@ def check_item(item): #checks if item exists in minecraft
     return key_list[position]
 
 def del_long_seq(substrings):
-    filter = set(item for item in substrings if len(item) <= 2)
+    filter = set(item for item in substrings if len(item) <= 2) #can make this 1 for 1 character searches only but uhhh dont
     return filter
 
 #thanks chatgpt
